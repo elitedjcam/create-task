@@ -5,3 +5,12 @@ p {
 body {
   background-color: coral;
 }
+
+h1, h2, h4 {
+  color: cyan;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
