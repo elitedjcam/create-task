@@ -16,3 +16,9 @@ h1, h2, h4 {
 		1px 1px 0 #000;
   text-align: center;
 }
+
+button {
+  color: white;
+  background: red;
+  text-align: center;
+}
