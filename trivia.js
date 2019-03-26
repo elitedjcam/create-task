@@ -19,18 +19,18 @@ function basketballScore {
   }
 }
 
-function baseballScore {
+function footballScore {
   if /*The correct answer is clicked*/ {
-    bbScore++
+    fbScore++
   } else /*The wrong answer is clicked*/ {
-    bbScore = bbScore
+    fbScore = fbScore
   }
 }
 
-function baseballScore {
+function tennisScore {
   if /*The correct answer is clicked*/ {
-    bbScore++
+    tnScore++
   } else /*The wrong answer is clicked*/ {
-    bbScore = bbScore
+    tnScore = tnScore
   }
 }
