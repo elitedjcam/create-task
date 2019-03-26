@@ -1,4 +1,3 @@
-var score;
 
 function correctAnswer {
 
