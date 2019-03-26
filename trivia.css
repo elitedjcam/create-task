@@ -1,6 +1,10 @@
-p {
+p.intro {
   color: blue;
   text-align: center;
+}
+
+p.suggestion {
+  text-align: left;
 }
 
 body {
@@ -17,7 +21,7 @@ h1, h2, h4 {
   text-align: center;
 }
 
-button {
+button.answer {
   font: 22px "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
   margin: 3px 3px 3px 3px;
   height: 80px;
