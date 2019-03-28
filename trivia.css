@@ -11,6 +11,10 @@ body {
   background-color: coral;
 }
 
+h1.questionHeader {
+  text-align: left;
+}
+
 h1, h2, h4 {
   color: cyan;
   text-shadow:
