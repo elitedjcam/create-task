@@ -36,6 +36,6 @@ function tennisScoreKeepWrong {
 }
 
 function findBBScore {
-  var div = document.getElementById("baseballScore");
-  div.innerHTML = "Final Score: " + bbScore + " / 5";
+  var p = document.getElementById("baseballScore");
+  p.innerHTML = "Final Score: " + bbScore + " / 5";
 }
