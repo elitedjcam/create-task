@@ -1,7 +1,7 @@
-let bbScore;
-let bkScore;
-let fbScore;
-let tnScore;
+var bbScore;
+var bkScore;
+var fbScore;
+var tnScore;
 
 function baseballScoreKeepCorrect {
   bbScore = bbScore++
@@ -33,4 +33,9 @@ function tennisScoreKeepCorrect {
 
 function tennisScoreKeepWrong {
   tnScore = tnScore
+}
+
+function findBBScore {
+  var div = document.getElementById("baseballScore");
+  div.innerHTML = "Final Score: " + bbScore + " / 5";
 }

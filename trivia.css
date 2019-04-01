@@ -32,3 +32,12 @@ button.answer {
   width: 80px;
   text-align: center;
 }
+
+button.finish {
+  color: black;
+  font: 22px "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
+  margin: 3px 3px 3px 3px;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+}
