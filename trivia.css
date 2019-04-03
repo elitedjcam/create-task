@@ -33,7 +33,7 @@ button.answer {
   text-align: center;
 }
 
-.baseballScore {
+.baseballScore, .footballScore, .basketballScore, .tennisScore {
   display: block;
   width: 200px;
   height: 45px;
@@ -43,7 +43,7 @@ button.answer {
   color: black;
 }
 
-#baseballScore {
+#baseballScore, #footballScore, #basketballScore, #tennisScore {
   font: 16px "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
   text-align: right;
   margin-top: 50px;

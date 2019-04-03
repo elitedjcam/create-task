@@ -3,7 +3,7 @@
   <link rel="stylesheet" type="text/css" href="trivia.css">
   <script type="text/javascript" src="trivia.js"></script>
   <body>
-    <div class="footballScore"></div>
+    <div class="footballScore" id="footballScore">Score</div>
     <h1>Football Quiz</h1>
     <br>
     <h2 class="questionHeader">Question 1</h2>
@@ -12,10 +12,10 @@
     <p class="suggestion">B. 10</p>
     <p class="suggestion">C. 20</p>
     <p class="suggestion">D. 12</p>
-    <button class="answer" id=correct>A</button>
-    <button class="answer" id=wrong>B</button>
-    <button class="answer" id=wrong>C</button>
-    <button class="answer" id=wrong>D</button>
+    <button class="answer" id=correct onclick="footballScoreKeepCorrect()">A</button>
+    <button class="answer" id=wrong onclick="footballScoreKeepWrong()">B</button>
+    <button class="answer" id=wrong onclick="footballScoreKeepWrong()">C</button>
+    <button class="answer" id=wrong onclick="footballScoreKeepWrong()">D</button>
     <br>
     <h2 class="questionHeader">Question 2</h2>
     <p class="question"> What exactly is a fumble? </p>
@@ -23,10 +23,10 @@
     <p class="suggestion">B. The ball hits the ground</p>
     <p class="suggestion">C. Dropping the ball</p>
     <p class="suggestion">D. Catch a ball</p>
-    <button class="answer" id=wrong>A</button>
-    <button class="answer" id=wrong>B</button>
-    <button class="answer" id=correct>C</button>
-    <button class="answer" id=wrong>D</button>
+    <button class="answer" id=wrong onclick="footballScoreKeepWrong()">A</button>
+    <button class="answer" id=wrong onclick="footballScoreKeepWrong()">B</button>
+    <button class="answer" id=correct onclick="footballScoreKeepCorrect()">C</button>
+    <button class="answer" id=wrong onclick="footballScoreKeepWrong()">D</button>
     <br>
     <h2 class="questionHeader">Question 3</h2>
     <p class="question"> How long is a football field? </p>
@@ -34,31 +34,31 @@
     <p class="suggestion">B. 120 yards</p>
     <p class="suggestion">C. 50 yards</p>
     <p class="suggestion">D. 100 yards</p>
-    <button class="answer" id=wrong>A</button>
-    <button class="answer" id=wrong>B</button>
-    <button class="answer" id=wrong>C</button>
-    <button class="answer" id=correct>D</button>
+    <button class="answer" id=wrong onclick="footballScoreKeepWrong()">A</button>
+    <button class="answer" id=wrong onclick="footballScoreKeepWrong()">B</button>
+    <button class="answer" id=wrong onclick="footballScoreKeepWrong()">C</button>
+    <button class="answer" id=correct onclick="footballScoreKeepCorrect()">D</button>
     <br>
     <h2 class="questionHeader">Question 4</h2>
     <p class="question"> What ways do you <em>not</em> get points? </p>
     <p class="suggestion">A. Getting to the other team's endzone on offense</p>
-    <p class="suggestion">B. </p>
+    <p class="suggestion">B. Getting tackled</p>
     <p class="suggestion">C. Kicking the ball through the goal posts</p>
     <p class="suggestion">D. Getting to the other team's endzone on defence</p>
-    <button class="answer" id=wrong>A</button>
-    <button class="answer" id=correct>B</button>
-    <button class="answer" id=wrong>C</button>
-    <button class="answer" id=wrong>D</button>
+    <button class="answer" id=wrong onclick="footballScoreKeepWrong()">A</button>
+    <button class="answer" id=correct onclick="footballScoreKeepCorrect()">B</button>
+    <button class="answer" id=wrong onclick="footballScoreKeepWrong()">C</button>
+    <button class="answer" id=wrong onclick="footballScoreKeepWrong()">D</button>
     <br>
     <h2 class="questionHeader">Question 5</h2>
-    <p class="question"> What is a force play? </p>
-    <p class="suggestion">A. Any time you can get a player out</p>
-    <p class="suggestion">B. Any time when an out is obtained when just stepping on the base</p>
-    <p class="suggestion">C. Forcing a player to get off the field</p>
-    <p class="suggestion">D. Catching a hit</p>
-    <button class="answer" id=wrong>A</button>
-    <button class="answer" id=correct>B</button>
-    <button class="answer" id=wrong>C</button>
-    <button class="answer" id=wrong>D</button>
+    <p class="question"> What is a safety? </p>
+    <p class="suggestion">A. Tackling somebody in their endzone</p>
+    <p class="suggestion">B. Tackling somebody in your endzone</p>
+    <p class="suggestion">C. Keeping proper equipment</p>
+    <p class="suggestion">D. Catching an opposing quarterback's pass</p>
+    <button class="answer" id=wrong onclick="footballScoreKeepCorrect()">A</button>
+    <button class="answer" id=correct onclick="footballScoreKeepWrong()">B</button>
+    <button class="answer" id=wrong onclick="footballScoreKeepWrong()">C</button>
+    <button class="answer" id=wrong onclick="footballScoreKeepWrong()">D</button>
   </body>
 </head>
