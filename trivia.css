@@ -33,11 +33,19 @@ button.answer {
   text-align: center;
 }
 
-button.finish {
+.baseballScore {
+  display: block;
+  width: 200px;
+  height: 45px;
+  margin-bottom: 10px;
+  padding: 1%;
+  border: 5px solid black;
   color: black;
-  font: 22px "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
-  margin: 3px 3px 3px 3px;
-  height: 80px;
-  width: 80px;
-  text-align: center;
+}
+
+#baseballScore {
+  font: 16px "Century Gothic", "Century Gothic", "Apple Gothic", sans-serif;
+  text-align: right;
+  margin-top: 50px;
+  color: white;
 }
