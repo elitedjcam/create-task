@@ -5,59 +5,51 @@
   <body>
     <div class="tennisScore" id="tennisScore">Score</div>
     <h2 class="questionHeader">Question 1</h2>
-    <p class="question"> How many innings are in an average MLB baseball game? </p>
-    <p class="suggestion">A. 6</p>
-    <p class="suggestion">B. 5</p>
-    <p class="suggestion">C. 9</p>
-    <p class="suggestion">D. 12</p>
-    <button class="answer" id=wrong onclick="baseballScoreKeepWrong()">A</button>
-    <button class="answer" id=wrong onclick="baseballScoreKeepWrong()">B</button>
-    <button class="answer" id=correct onclick="baseballScoreKeepCorrect()">C</button>
-    <button class="answer" id=wrong onclick="baseballScoreKeepWrong()">D</button>
+    <p class="question"> Is there a maximum score in tennis? </p>
+    <p class="suggestion">A. Yes</p>
+    <p class="suggestion">B. No</p>
+    <button class="answer" id=correct onclick="tennisScoreKeepCorrect()">A</button>
+    <button class="answer" id=wrong onclick="tennisScoreKeepWrong()">B</button>
     <br>
     <h2 class="questionHeader">Question 2</h2>
-    <p class="question"> How many people are on the field in an average baseball game? </p>
-    <p class="suggestion">A. 7</p>
-    <p class="suggestion">B. 8</p>
-    <p class="suggestion">C. 13</p>
-    <p class="suggestion">D. 9</p>
-    <button class="answer" id=wrong onclick="baseballScoreKeepWrong()">A</button>
-    <button class="answer" id=wrong onclick="baseballScoreKeepWrong()">B</button>
-    <button class="answer" id=wrong onclick="baseballScoreKeepWrong()">C</button>
-    <button class="answer" id=correct onclick="baseballScoreKeepCorrect()">D</button>
+    <p class="question"> Up to how many people can play at once? </p>
+    <p class="suggestion">A. 6</p>
+    <p class="suggestion">B. 10</p>
+    <p class="suggestion">C. 2</p>
+    <p class="suggestion">D. 4</p>
+    <button class="answer" id=wrong onclick="tennisScoreKeepWrong()">A</button>
+    <button class="answer" id=wrong onclick="tennisScoreKeepWrong()">B</button>
+    <button class="answer" id=wrong onclick="tennisScoreKeepWrong()">C</button>
+    <button class="answer" id=correct onclick="tennisScoreKeepCorrect()">D</button>
     <br>
     <h2 class="questionHeader">Question 3</h2>
-    <p class="question"> What are some ways to get an out? </p>
-    <p class="suggestion">A. Tag the player with just your glove</p>
-    <p class="suggestion">B. Catch a hit out of mid-air without it touching the ground</p>
-    <p class="suggestion">C. Step on a base</p>
-    <p class="suggestion">D. None of the above</p>
-    <button class="answer" id=wrong onclick="baseballScoreKeepWrong()">A</button>
-    <button class="answer" id=correct onclick="baseballScoreKeepCorrect()">B</button>
-    <button class="answer" id=wrong onclick="baseballScoreKeepWrong()">C</button>
-    <button class="answer" id=wrong onclick="baseballScoreKeepWrong()">D</button>
+    <p class="question"> WHat is the term "love"? </p>
+    <p class="suggestion">A. Tying 3-3</p>
+    <p class="suggestion">B. Winning</p>
+    <p class="suggestion">C. Having two points</p>
+    <p class="suggestion">D. Having no points</p>
+    <button class="answer" id=wrong onclick="tennisScoreKeepWrong()">A</button>
+    <button class="answer" id=correct onclick="tennisScoreKeepWrong()">B</button>
+    <button class="answer" id=wrong onclick="tennisScoreKeepWrong()">C</button>
+    <button class="answer" id=wrong onclick="tennisScoreKeepCorrect()">D</button>
     <br>
     <h2 class="questionHeader">Question 4</h2>
-    <p class="question"> What are some ways to <em>get</em> out? </p>
-    <p class="suggestion">A. Get tagged by a player with the ball</p>
-    <p class="suggestion">B. Hitting the ball but also stepping out of the batter's box</p>
-    <p class="suggestion">C. Getting caught stealing</p>
+    <p class="question"> What are some types of tennis courts </p>
+    <p class="suggestion">A. Clay</p>
+    <p class="suggestion">B. Grass</p>
+    <p class="suggestion">C. Concrete/Blacktop + Acrylic</p>
     <p class="suggestion">D. All of the above</p>
-    <button class="answer" id=wrong onclick="baseballScoreKeepWrong()">A</button>
-    <button class="answer" id=wrong onclick="baseballScoreKeepWrong()">B</button>
-    <button class="answer" id=wrong onclick="baseballScoreKeepWrong()">C</button>
-    <button class="answer" id=correct onclick="baseballScoreKeepCorrect()">D</button>
+    <button class="answer" id=wrong onclick="tennisScoreKeepWrong()">A</button>
+    <button class="answer" id=wrong onclick="tennisScoreKeepWrong()">B</button>
+    <button class="answer" id=wrong onclick="tennisScoreKeepWrong()">C</button>
+    <button class="answer" id=correct onclick="tennisScoreKeepCorrect()">D</button>
     <br>
     <h2 class="questionHeader">Question 5</h2>
-    <p class="question"> What is a force play? </p>
-    <p class="suggestion">A. Any time you can get a player out</p>
-    <p class="suggestion">B. Any time when an out is obtained when just stepping on the base</p>
-    <p class="suggestion">C. Forcing a player to get off the field</p>
-    <p class="suggestion">D. Catching a hit</p>
-    <button class="answer" id=wrong onclick="baseballScoreKeepWrong()">A</button>
-    <button class="answer" id=correct onclick="baseballScoreKeepCorrect()">B</button>
-    <button class="answer" id=wrong onclick="baseballScoreKeepWrong()">C</button>
-    <button class="answer" id=wrong onclick="baseballScoreKeepWrong()">D</button>
+    <p class="question"> True or False: There are a multitude of rule sets in tennis. </p>
+    <p class="suggestion">A. True</p>
+    <p class="suggestion">B. False</p>
+    <button class="answer" id=wrong onclick="tennisScoreKeepCorrect()">A</button>
+    <button class="answer" id=correct onclick="tennisScoreKeepWrong()">B</button>
     <br>
   </body>
 </head>
